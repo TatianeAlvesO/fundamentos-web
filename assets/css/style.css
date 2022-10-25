@@ -1,4 +1,15 @@
 /* Estilos da página index.html */
+
+
+body{
+    background:linear-gradient(135deg, #cabbb4 0%, #cabbb4 51%);
+    color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    }
+
 .center {
     text-align: center;
 }
@@ -64,3 +75,30 @@
     word-wrap: break-word; 
     word-break: break-word;
 }
+
+/* Estilos da página adicional.html - br-50 wh-300 p-30 */
+
+.br-60{
+    border-radius: 20%;
+}
+
+.wh-400 {
+    width: 400px;
+    height: 300px;
+}
+
+.p-35 {
+    padding: 35px;
+}
+
+.center{
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
