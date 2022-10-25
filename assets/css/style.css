@@ -56,3 +56,11 @@
 .ml-50{
     margin-left: 50px;
 }
+
+.word {
+    width: 450px;
+    height: 380px;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
