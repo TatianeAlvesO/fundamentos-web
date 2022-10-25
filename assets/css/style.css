@@ -1,0 +1,104 @@
+/* Estilos da página index.html */
+
+
+body{
+    background:linear-gradient(135deg, #cabbb4 0%, #cabbb4 51%);
+    color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    }
+
+.center {
+    text-align: center;
+}
+    
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+#menu li     {
+    display: inline;
+    padding: 15PX;
+    text-decoration: none;
+}
+
+#menu li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color:dimgrey;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 20%;
+}
+
+.wh-300 {
+    width: 400px;
+    height: 300px;
+}
+
+.tm-social{
+    width: 45px;
+    height: 45px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+/* Estilos da página contato.html */
+
+.ml-50{
+    margin-left: 50px;
+}
+
+.word {
+    width: 450px;
+    height: 380px;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+/* Estilos da página adicional.html - br-50 wh-300 p-30 */
+
+.br-60{
+    border-radius: 20%;
+}
+
+.wh-400 {
+    width: 400px;
+    height: 300px;
+}
+
+.p-35 {
+    padding: 35px;
+}
+
+.center{
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
