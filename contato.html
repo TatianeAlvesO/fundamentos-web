@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +8,39 @@
     <title>Contato 📧</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+    
     <ul id="menu">
-        <li>
-            <a href="index.html"> Home </a>
-        </li>
-        <li>
-            <a href="adicional.html"> Informações </a>
-        </li>
-        <li>
-            <a href="contato.html"> Contato </a>
-        </li> 
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="adicional.html"> Informações</a></li>
+        <li><a href="contato.html"> Contato</a></li> 
     </ul>
+    
     <h1 class="center">Entre em contato comigo</h1>
 
     <div class="container">
-<div class="word">
-    <form>
-        <p>
-            <label for="nome">Nome:</label>
-            <p>
-                <input type="text" id="nome">
-            </p>
-        </p>
-        <p>
-            <label for5="email">E-mail:</label>
-            <p>
-                <input type="email" id="email">
-            </p>
-        </p>
-        <p>
-            <label for5="assunto">Assunto:</label>
-            <p>
-                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-            </p>
-        </p>
-        <button>Enviar</button>
-    </form>
-</div>
+        <div class="word">
+            <form>
+            <label for="nome">Nome</label><br>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"></div>
+                <br>
+            <label for5="email">E-mail:</label><br>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
+                <br>
+            <label for5="assunto">Assunto:</label><br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                <div id="txtAssunto"></div>
+                <br>
+                <br>
+        <button onclick="enviar()">Enviar</button>
+        </form>
+        </div>
 
 <div class="ml-50">
-    
+
     <iframe 
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29256.70214265806!2d-46.64986935445553!3d-23.56529108270066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ceb1eb771f%3A0xe904f6a669744da1!2sMuseum%20of%20Art%20of%20S%C3%A3o%20Paulo%20Assis%20Chateaubriand!5e0!3m2!1sen!2sbr!4v1666633388881!5m2!1sen!2sbr" 
     width="400" 
@@ -55,18 +48,21 @@
     style="border:0;" 
     allowfullscreen="" 
     loading="lazy" 
-    referrerpolicy="no-referrer-when-downgrade">
+    referrerpolicy="no-referrer-when-downgrade" 
+    onmousemove="mapaZomm()" 
+    onmouseout="mapaNormal()" 
+    id='mapa'> 
     </iframe>
 
     <p>Endereço: Av. Paulista, 1578 - Bela Vista</p>
     <p>São Paulo - SP</p>
 
 </div>
-    </div>
+</div>
 
     <hr>  
-<footer>
-    <div class="container" mb-50>
+        <footer>
+        <div class="container" mb-50>
         <a href="https://www.facebook.com/">
             <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
         </a>
@@ -83,8 +79,10 @@
     <p class="center">
         Todos os direitos reservados: Tatiane Alves &copy;
     </p>
-    
-</footer>
+
+    </footer>
+
+<script src="assets/js/script.js"></script>
 
 </body>
 </html>
