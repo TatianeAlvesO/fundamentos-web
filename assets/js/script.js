@@ -64,12 +64,12 @@ function enviar() {
 }
 
 function mapaZomm() {
-    mapa.style.width = "800px"
-    mapa.style.height = "600px"
+    mapa.style.width = "500px"
+    mapa.style.height = "300px"
 }
 
 function mapaNormal() {
-    mapa.style.width = "400"
+    mapa.style.width = "400px"
     mapa.style.height = "250px"
 }
 
