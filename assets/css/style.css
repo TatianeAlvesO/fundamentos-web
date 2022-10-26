@@ -1,15 +1,5 @@
 /* Estilos da página index.html */
 
-
-body{
-    background:linear-gradient(135deg, #cabbb4 0%, #cabbb4 51%);
-    color: var(--preto);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow-x: hidden;
-    }
-
 .center {
     text-align: center;
 }
@@ -68,13 +58,7 @@ body{
     margin-left: 50px;
 }
 
-.word {
-    width: 450px;
-    height: 380px;
-    overflow-wrap: break-word;  
-    word-wrap: break-word; 
-    word-break: break-word;
-}
+
 
 /* Estilos da página adicional.html - br-50 wh-300 p-30 */
 
@@ -101,4 +85,5 @@ body{
     justify-content: flex-end;
     align-items: center;
 }
+
 
